@@ -41,7 +41,7 @@ Check the [screenshots](#screenshots) to quickly get a better idea.
 $ npm install folder-template --save-dev
 ```
 
-1. Expose the CLI through your `package.json`'s `scripts`:  
+2. Expose the CLI through your `package.json`'s `scripts`:  
 ```js
 {
     ...
@@ -74,6 +74,9 @@ $ npm run generate component ./
 - Supports nested structures
 
 ## Getting started 
+
+npm: [https://www.npmjs.com/package/folder-template](https://www.npmjs.com/package/folder-template)  
+github: [https://github.com/efidiles/folder-template](https://github.com/efidiles/folder-template)
 
 ### Installing folder-template 
 [[jump to TOC](#jump-to)]
@@ -204,7 +207,7 @@ You can also use all the [handlebars helpers](https://www.npmjs.com/package/hand
 ## Sample project 
 [[jump to TOC](#jump-to)]
 
-There is a sample project in the github repo inside [/examples/sample-project](https://github.com/efidiles/folder-template/tree/master/examples/sample-project)
+There is a sample project in the [github repo](https://github.com/efidiles/folder-template/tree/master/examples/sample-project) inside [/examples/sample-project](https://github.com/efidiles/folder-template/tree/master/examples/sample-project)
 
 To use it, clone the repo:  
 ```
@@ -238,3 +241,5 @@ npm run generate component ./
 
 Copyright © 2016, [Eduard Fidiles](https://github.com/efidiles).
 Released under the [MIT license](https://github.com/folder-template/folder-template/blob/master/LICENSE).
+
+Based on [assemble](https://www.npmjs.com/package/assemble)
