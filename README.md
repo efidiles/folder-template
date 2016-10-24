@@ -19,7 +19,13 @@
 
 ## Overview
 
-folder-template is an easy to use directory / files generator
+folder-template is an easy to use directory / files generator.  
+
+Its main purpose is to help with generation of components, modules and other folder / files structures from predefined and easy to configure templates. 
+
+It's a simpler and more focused alternative to `angular-cli` and simillar tools.  
+
+Check the [screenshots](#screenshots) to quickly get a better idea.
 
 ### Features
 
@@ -64,29 +70,31 @@ Run folder-template from the command line.
 ```sh
 $ npm run generate component ./
 ```
+Where `component` is the name of a folder from your `templates` directory. 
+
 You should now be asked some questions about the new component and
 then you should have a folder with the name you specified in the root of your project. 
 
 ## Screenshots
 
-**Queries the user for data based on the `.config` file:**  
+**1. Define a `templates` directory in your project's root directory:**  
 <a href="https://github.com/efidiles/folder-template">
-    <img src="https://raw.githubusercontent.com/efidiles/folder-template/master/docs/questions.png">  
+    <img src="https://raw.githubusercontent.com/efidiles/folder-template/master/docs/templates-folder.png">  
 </a>
 
-**Example of `.config` file:**  
+**2. Setup your templates and specify variables and questions in a `.config` file sitting in each template folder:**  
 <a href="https://github.com/efidiles/folder-template">
     <img src="https://raw.githubusercontent.com/efidiles/folder-template/master/docs/config-file.png">  
+</a>
+
+**3. Generate a template and you'll be queried for data based on the `.config` file:**  
+<a href="https://github.com/efidiles/folder-template">
+    <img src="https://raw.githubusercontent.com/efidiles/folder-template/master/docs/questions.png">  
 </a>
 
 **Completion screen:**  
 <a href="https://github.com/efidiles/folder-template">
     <img src="https://raw.githubusercontent.com/efidiles/folder-template/master/docs/completion-screen.png">  
-</a>
-
-**Expected structure for the `templates` directory in your project's root directory:**  
-<a href="https://github.com/efidiles/folder-template">
-    <img src="https://raw.githubusercontent.com/efidiles/folder-template/master/docs/templates-folder.png">  
 </a>
 
 **Example of template contents:**  
@@ -95,8 +103,8 @@ then you should have a folder with the name you specified in the root of your pr
 </a>
 
 ### NOTES:  
-You can use handlebars and bind to the variables in the filename both in the contents of files and also in the names of the directories / files.  
-This also applies to all the handlebars helpers as can be seen in the examples.
+You can use handlebars to parametrise both the contents of files and also the names of the directories and files.  
+You can also use all the handlebars helpers as can be seen in the examples and in [screenshots](#screenshots).
 
 ### TODO
 * add more documentation

@@ -1,6 +1,6 @@
 {
   "name": "folder-template",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A directory / files generator based on templates",
   "repository": {
     "type": "git",
