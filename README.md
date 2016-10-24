@@ -159,12 +159,6 @@ start generating files and folders using commands like the following (in your pr
 ```sh
 $ npm run generate component ./
 ```
-<<<<<<< 3e5349da3398b8f61b0a6c0a9b0fd30591c3edd0
-Where `component` is the name of a folder from your `templates` directory.
-
-You should now be asked some questions about the new component and
-then you should have a folder with the name you specified in the root of your project.
-=======
 
 Where:
 - `generate` is the alias to `folder-template` CLI (`ft`) defined in `scripts` property of `package.json`
@@ -173,7 +167,6 @@ Where:
 
 You should now be asked some questions about the new component (based on the `.config` file) and
 then you should find a new folder with the name you specified in the root of your project. 
->>>>>>> Update documentation and add example project
 
 ## Screenshots 
 [[jump to TOC](#jump-to)]
@@ -210,6 +203,22 @@ You can also use all the [handlebars helpers](https://www.npmjs.com/package/hand
 
 ## Sample project 
 [[jump to TOC](#jump-to)]
+
+There is a sample project in the github repo inside [/examples/sample-project](https://github.com/efidiles/folder-template/tree/master/examples/sample-project)
+
+To use it, clone the repo:  
+```
+git clone git@github.com:efidiles/folder-template.git  
+```
+navigate to `/examples/sample-project`:  
+```
+cd folder-template/examples/sample-project
+```
+run:  
+```
+npm run generate component ./
+```
+(no need for `npm install` as it will be done automatically) 
 
 ## Authors 
 [[jump to TOC](#jump-to)]
