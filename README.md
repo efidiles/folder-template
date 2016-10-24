@@ -21,7 +21,7 @@
 
 folder-template is an easy to use directory / files generator.  
 
-Its main purpose is to help with generation of components, modules and other folder / files structures from predefined and easy to configure templates. 
+Its main purpose is to help with generation of components, modules and other folder / files structures from predefined and easy to configure templates.
 
 It's a simpler and more focused alternative to `angular-cli` and simillar tools.  
 
@@ -70,10 +70,10 @@ Run folder-template from the command line.
 ```sh
 $ npm run generate component ./
 ```
-Where `component` is the name of a folder from your `templates` directory. 
+Where `component` is the name of a folder from your `templates` directory.
 
 You should now be asked some questions about the new component and
-then you should have a folder with the name you specified in the root of your project. 
+then you should have a folder with the name you specified in the root of your project.
 
 ## Screenshots
 
@@ -115,6 +115,11 @@ You can also use all the handlebars helpers as can be seen in the examples and i
 
 * [github/efidiles](https://github.com/efidiles)
 * [twitter/efidiles](http://twitter.com/efidiles)
+
+**John Kilpatrick**
+
+* [github/jjkilpatrick](https://github.com/jjkilpatrick)
+* [twitter/jjkilpatrick](http://twitter.com/jjkilpatrick)
 
 ### License
 

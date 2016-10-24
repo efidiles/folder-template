@@ -7,6 +7,9 @@
     "url": "git+ssh://git@github.com:efidiles/folder-template.git"
   },
   "author": "Eduard Fidiles",
+  "contributors": [{
+	  "name": "John Kilpatrick",
+  }],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/efidiles/folder-template/issues"
