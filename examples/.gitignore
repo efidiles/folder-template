@@ -1,0 +1,24 @@
+### OS ###
+
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### IDE ###
+
+# JetBrains
+
+*.iml
+/.idea/
+
+### Misc ###
+
+*.log
+/.custom/
+
+### Project ###
+
+/node_modules/

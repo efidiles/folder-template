@@ -1,0 +1,53 @@
+{
+  "name": "folder-template",
+  "version": "0.1.0",
+  "description": "A directory / files generator based on templates",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:efidiles/folder-template.git"
+  },
+  "author": "Eduard Fidiles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/efidiles/folder-template/issues"
+  },
+  "homepage": "https://github.com/efidiles/folder-template#README",
+  "main": "index.js",
+  "bin": {
+    "ft": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "assemble": "^0.17.1",
+    "debug": "^2.2.0",
+    "enquirer": "^0.4.1",
+    "gulp-rename": "^1.2.2",
+    "handlebars-helpers": "^0.7.5"
+  },
+  "keywords": [
+    "generate",
+    "generator",
+    "file",
+    "folder",
+    "template",
+    "templates",
+    "templating",
+    "build",
+    "builder",
+    "compile",
+    "component",
+    "handlebars",
+    "helper",
+    "helpers",
+    "scaffold",
+    "scaffolder",
+    "scaffolding",
+    "angular",
+    "angular2",
+    "ng",
+    "ng2",
+    "react"
+  ]
+}
