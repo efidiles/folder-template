@@ -1,21 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: '{{ selector }}',<% if(inlineTemplate) { }}
-  template: `
-    <p>
-      {{ hyphenate name }} Works!
-    </p>
-  `,<% } else { }}
-  templateUrl: './{{ hyphenate name }}.component.html',<% } if(inlineStyle) { }}
-  styles: []<% } else { }}
-  styleUrls: ['./{{ hyphenate name }}.component.css']<% } }}
+	selector: '{{ hyphenate selector }}',
+	template: require('./{{ hyphenate name }}.component.html'),
+	styles: [ require('./{{ hyphenate name }}.component.scss') ],
 })
-export class {{ pascalcase name }}Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class {{ pascalcase name }}Component {}
