@@ -17,8 +17,9 @@ Thumbs.db
 ### Misc ###
 
 *.log
+*.tgz
 /.custom/
 
 ### Project ###
 
-/node_modules/
+node_modules

@@ -1,6 +1,6 @@
 {
   "name": "folder-template",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A directory / files generator based on templates",
   "repository": {
     "type": "git",
@@ -21,6 +21,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+      "node": ">= 6.5.0"
   },
   "dependencies": {
     "assemble": "^0.17.1",

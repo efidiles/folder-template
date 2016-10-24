@@ -1,0 +1,20 @@
+{
+  "name": "folder-template-consumer",
+  "version": "0.0.1",
+  "description": "A project using the folder-template package",
+  "main": "index.js",
+  "scripts": {
+    "generate": "ft",
+    "pregenerate": "npm i && npm run install:ft",
+    "install:ft": "rimraf -rf ./node_modules/folder-template && cd ../.. && npm pack && cd examples/sample-project && npm i ../../folder-template-*.tgz && rimraf -rf ../../folder-template-*.tgz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduard Fidiles",
+  "license": "MIT",
+  "engines": {
+      "node": ">= 6.5.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.4"
+  }
+}
