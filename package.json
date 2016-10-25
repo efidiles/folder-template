@@ -54,6 +54,9 @@
     "angular2",
     "ng",
     "ng2",
-    "react"
+    "react",
+    "service",
+    "pipe",
+    "module",
   ]
 }
