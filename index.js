@@ -12,7 +12,7 @@ const NEWLINE = '\n';
 const ICON_INFO = assembleApp.log.symbol.info;
 const ICON_SUCCESS = assembleApp.log.symbol.success;
 const handlebarsEngine = assembleApp.engines['.hbs'];
-const templatesSourcePath = path.join(assembleApp.cwd, 'templates');
+const templatesSourcePath = path.join(assembleApp.cwd, $npm_package_config_generate-templates);
 const enquirer = new Enquirer();
 
 assembleApp.option('silent', true);
